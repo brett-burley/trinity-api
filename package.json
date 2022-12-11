@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Trinity Api",
+  "main": "app.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon app.js",
+    "prod": "NODE_ENV=production node app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brett-burley/trinity-api.git"
+  },
+  "author": "B.D Ackerman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brett-burley/trinity-api/issues"
+  },
+  "homepage": "https://github.com/brett-burley/trinity-api#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0"
+  }
+}

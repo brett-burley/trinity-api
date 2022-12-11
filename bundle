@@ -1,0 +1,1 @@
+git archive -v -o app.zip --format=zip HEAD
